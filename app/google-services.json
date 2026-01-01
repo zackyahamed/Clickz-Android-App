@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "384343269451",
-    "project_id": "clickz-61e69",
-    "storage_bucket": "clickz-61e69.firebasestorage.app"
+    "project_number": "38439451",
+    "project_id": "clickz-69",
+    "storage_bucket": "clickz-61.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:384343269451:android:83bcfb32ce56ec4fcbedce",
+        "mobilesdk_app_id": "1:383269451:android:83bcfb32ce56ec4fcbedce",
         "android_client_info": {
           "package_name": "com.example.clickz"
         }
