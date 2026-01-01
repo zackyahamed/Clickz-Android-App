@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Clickz</string>
+    <string name="t1">Home</string>
+    <string name="t2">Welcome Back!</string>
+    <string name="t3">Email</string>
+    <string name="t4">Password</string>
+    <string name="t5">Create a New Account</string>
+    <string name="b1">Sign In</string>
+    <string name="b2">Home</string>
+    <string name="t6">First Name</string>
+    <string name="t8">Last Name</string>
+    <string name="t9">Mobile</string>
+    <string name="t10">Warning</string>
+    <string name="t11">Already have a Account? Sign In..</string>
+    <string name="b3">Create</string>
+    <string name="b4">OK</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="t12">Cart</string>
+    <string name="t13">Wish List</string>
+    <string name="t14">Profile</string>
+    <string name="t15">Settings</string>
+    <string name="t16">New Arrivals</string>
+    <string name="t17">All Products</string>
+    <string name="t18">Categories</string>
+    <string name="t19">Title</string>
+    <string name="t120">Description</string>
+    <string name="t21">Price</string>
+    <string name="t22">Quantity</string>
+    <string name="t23">Add Product</string>
+    <string name="t24">Add To Cart</string>
+    <string name="t25">Buy Now</string>
+    <string name="t26">Quantity</string>
+    <string name="t27">Proceed To Checkout</string>
+    <string name="t28">Forgot Password?</string>
+    <string name="t29">Checkout</string>
+    <string name="t30">Total</string>
+    <string name="t31">Current Address</string>
+    <string name="t32">Line 1</string>
+    <string name="t33">Line 2</string>
+    <string name="t34">City</string>
+    <string name="t35">Province</string>
+    <string name="t36">Cart Total</string>
+    <string name="t37">Shipping Cost</string>
+    <string name="t38">facebook/Clickz</string>
+    <string name="t39">insta/clickz</string>
+    <string name="t40">tiktok/clickz</string>
+    <string name="t41">www.clickz.com</string>
+    <string name="t42">info@clickz.com</string>
+    <string name="t43">Tap for send SMS</string>
+    <string name="t44">Tap for Call Us</string>
+    <string name="t45">Our Locations on Map</string>
+    <string name="t46">Admin Panal</string>
+    <string name="t47">Today Sales</string>
+    <string name="t48">Today Orders</string>
+    <string name="t49">Total Users</string>
+    <string name="t450">Pending Deliveries</string>
+    <string name="ngrok">https://26df-203-189-189-137.ngrok-free.app</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+
+</resources>

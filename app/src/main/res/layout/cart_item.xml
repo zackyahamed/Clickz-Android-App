@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="24dp"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/textView27"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="@+id/textView27">
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="2dp"
+            android:layout_height="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/add"
+            android:foreground="@drawable/add"
+            android:text="+"
+            android:textSize="6sp" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:inputType="number"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="2dp"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/minus"
+            android:foreground="@drawable/minus"
+            android:text="-"
+            android:textSize="6sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/cartItemimageView"
+        android:layout_width="66dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/clickz_logo" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="178dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="24dp"
+        android:fontFamily="@font/parkinsans_bold"
+        android:text="@string/t19"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/cartItemimageView"
+        app:layout_constraintTop_toTopOf="@+id/cartItemimageView" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="90dp"
+        android:layout_height="19dp"
+        android:fontFamily="@font/parkinsans_regular"
+        android:text="@string/t21"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/cartItemimageView"
+        app:layout_constraintStart_toStartOf="@+id/textView26"
+        app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="63dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/parkinsans_bold"
+        android:gravity="center"
+        android:text="@string/t21"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView29"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout2" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="181dp"
+        android:layout_height="14dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/parkinsans_regular"
+        android:text="TextView"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView25"
+        app:layout_constraintStart_toStartOf="@+id/textView25"
+        app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="X"
+        app:layout_constraintBottom_toBottomOf="@+id/textView27"
+        app:layout_constraintStart_toEndOf="@+id/textView27"
+        app:layout_constraintTop_toTopOf="@+id/textView27" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="="
+        app:layout_constraintBottom_toBottomOf="@+id/textView27"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout2"
+        app:layout_constraintTop_toTopOf="@+id/textView27"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

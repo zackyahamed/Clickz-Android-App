@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "384343269451",
+    "project_id": "clickz-61e69",
+    "storage_bucket": "clickz-61e69.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:384343269451:android:83bcfb32ce56ec4fcbedce",
+        "android_client_info": {
+          "package_name": "com.example.clickz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCG0YIyD_1KGQrDVBbHd6LxaN2uhIIYPLY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.clickz.ui.home.HomeFragment"
+        android:label="@string/b2"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_cart"
+        android:name="com.example.clickz.ui.gallery.CartFragment"
+        android:label="@string/t12"
+        tools:layout="@layout/fragment_cart" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.clickz.ui.profile.ProfileFragment"
+        android:label="@string/t14"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/nav_add_product"
+        android:name="com.example.clickz.AddProductFragment"
+        android:label="@string/t26"
+        tools:layout="@layout/fragment_add_product" />
+    <fragment
+        android:id="@+id/contact_us"
+        android:name="com.example.clickz.ContactFragment"
+        android:label="Contact Us"
+        tools:layout="@layout/fragment_contact" />
+    <fragment
+        android:id="@+id/nav_wishList"
+        android:name="com.example.clickz.WishListFragment"
+        android:label="Wish List"
+        tools:layout="@layout/fragment_wish_list" />
+    <activity
+        android:id="@+id/nav_adminpanal"
+        android:name="com.example.clickz.AdminpanalActivity"
+        android:exported="false"
+        tools:layout="@layout/activity_adminpanal"/>
+
+</navigation>

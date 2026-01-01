@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/b2" />
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/trolley"
+            android:title="@string/t12" />
+
+        <item
+            android:id="@+id/nav_wishList"
+            android:icon="@drawable/heart"
+            android:title="@string/t13" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profile"
+            android:title="@string/t14" />
+
+
+
+        <item
+            android:id="@+id/contact_us"
+            android:icon="@drawable/customerservice"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/nav_add_product"
+            android:icon="@drawable/addproduct"
+            android:title="@string/t23" />
+        <item
+            android:id="@+id/nav_adminpanal"
+            android:icon="@drawable/useradmin"
+            android:title="@string/t46" />
+
+<!--        <item-->
+<!--            android:id="@+id/nav_sign_status"-->
+<!--            android:icon="@drawable/login"-->
+<!--            android:iconTint="@color/b1"-->
+<!--            android:title=""-->
+<!--            android:actionLayout="@layout/nav_header_button" />-->
+    </group>
+</menu>
